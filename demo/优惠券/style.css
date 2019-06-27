@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+}
+
+.coupon1 {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  margin: 20px auto;
+  color: white;
+}
+
+.coupon1-left {
+  height: 100%;
+  width: 120px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid transparent;
+  background: radial-gradient(circle 10px at right top, transparent 10px, #f3585c 100%) left top/100% 60% no-repeat, radial-gradient(circle 10px at right bottom, transparent 10px, #f3585c 100%) left bottom/100% 60% no-repeat;
+}
+
+.coupon1-left:after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  right: -1px;
+  top: 10px;
+  bottom: 10px;
+  background: linear-gradient(to bottom, #f3585c 2px, transparent 4px) 0 0/100% 6px repeat-y;
+}
+
+.coupon1-right {
+  flex: 1;
+  display: flex;
+  position: relative;
+  background: radial-gradient(circle 10px at left top, transparent 10px, #f3585c 0) left top/90% 60% no-repeat, radial-gradient(circle 10px at left bottom, transparent 10px, #f3585c 0) left bottom/90% 60% no-repeat, radial-gradient(circle 4px at right 6px, transparent 4px, #f3585c 0) right top/15% 12px repeat-y;
+}
+
+.coupon1-right--content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.coupon1-right--op {
+  width: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coupon1-right--op__btn {
+  font-size: 14px;
+  border: 1px solid white;
+  padding: 5px 8px;
+}
+
+.coupon2 {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  margin: 20px auto;
+  color: white;
+}
+
+.coupon2-left {
+  border-radius: 10px;
+  height: 100%;
+  width: 120px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid transparent;
+  background: radial-gradient(circle 10px at right top, transparent 10px, #f3585c 100%) left top/100% 60% no-repeat, radial-gradient(circle 10px at right bottom, transparent 10px, #f3585c 100%) left bottom/100% 60% no-repeat;
+}
+
+.coupon2-left:after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  right: -1px;
+  top: 10px;
+  bottom: 10px;
+  background: linear-gradient(to bottom, #f3585c 2px, transparent 4px) 0 0/100% 6px repeat-y;
+}
+
+.coupon2-right {
+  flex: 1;
+  display: flex;
+  position: relative;
+  background: radial-gradient(circle at left top, transparent 10px, #f3585c 0) left top/60% 60% no-repeat, radial-gradient(circle at left bottom, transparent 10px, #f3585c 0) left bottom/60% 60% no-repeat, radial-gradient(circle at right center, transparent 10px, #f3585c 0) right center/60% 100% no-repeat;
+}
+
+.coupon2-right--content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.coupon2-right--op {
+  width: 95px;
+  display: flex;
+  align-items: center;
+}
+
+.coupon2-right--op__btn {
+  border-radius: 15px;
+  font-size: 14px;
+  border: 1px solid white;
+  padding: 5px 8px;
+}
+
+.coupon3 {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  margin: 20px auto;
+  color: white;
+}
+
+.coupon3-left {
+  height: 100%;
+  width: 120px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle 10px at right top, transparent 10px, #f3585c 100%) right top/90% 60% no-repeat, radial-gradient(circle 10px at right bottom, transparent 10px, #f3585c 100%) right bottom/90% 60% no-repeat, radial-gradient(circle 4px at left 6px, transparent 4px, #f3585c 0) left top/15% 12px repeat-y;
+}
+
+.coupon3-right {
+  flex: 1;
+  display: flex;
+  position: relative;
+  background: radial-gradient(circle at left top, transparent 10px, #ccc 11px, transparent 0) left top/60% 60% no-repeat, radial-gradient(circle at left bottom, transparent 10px, #ccc 11px, transparent 0) left bottom/60% 60% no-repeat, linear-gradient(to right, transparent 11px, #ccc 0) left top/100% 1px no-repeat, linear-gradient(to right, transparent 11px, #ccc 0) left bottom/100% 1px no-repeat, linear-gradient(to bottom, #ccc 4px, transparent 0) right top/1px 12px repeat-y, radial-gradient(circle 3px at right 8px, transparent 3px, #ccc 4px, transparent 0) right top/6px 12px repeat-y;
+}
+
+.coupon3-right--content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.coupon3-right--op {
+  width: 95px;
+  display: flex;
+  align-items: center;
+}
+
+.coupon3-right--op__btn {
+  font-size: 14px;
+  border: 1px solid white;
+  background-color: #f3585c;
+  padding: 5px 8px;
+}
+
+.coupon4 {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  margin: 20px auto;
+  color: white;
+}
+
+.coupon4-left {
+  height: 100%;
+  width: 120px;
+  border-radius: 10px 0 0 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle 10px at left 70%, transparent 10px, #f3585c 100%) left top/100% 100% no-repeat;
+}
+
+.coupon4-right {
+  flex: 1;
+  display: flex;
+  position: relative;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid #ccc;
+}
+
+.coupon4-right--content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.coupon4-right--op {
+  width: 95px;
+  display: flex;
+  align-items: center;
+}
+
+.coupon4-right--op__btn {
+  font-size: 14px;
+  border: 1px solid white;
+  background-color: #f3585c;
+  padding: 5px 8px;
+  border-radius: 15px;
+}
