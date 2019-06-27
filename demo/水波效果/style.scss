@@ -4,10 +4,11 @@
     overflow: hidden;
     border: 1px solid silver;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 100px;  
+    height: 100px; 
     &__item{
-        animation: water-waves linear infinite;
+        -webkit-animation: water-waves linear infinite;
+                animation: water-waves linear infinite;
         position: absolute;
         width: 200%;
         height: 200%;
@@ -42,11 +43,25 @@
 }
 
 
-@keyframes water-waves {
+@-webkit-keyframes water-waves {
     0% {
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
     }
     100% {
-        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+
+@keyframes water-waves {
+    0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
     }
 }

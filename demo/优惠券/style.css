@@ -5,6 +5,8 @@ body {
 .coupon1 {
   width: 350px;
   height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 20px auto;
   color: white;
@@ -14,8 +16,14 @@ body {
   height: 100%;
   width: 120px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   border-right: 1px solid transparent;
   background: radial-gradient(circle 10px at right top, transparent 10px, #f3585c 100%) left top/100% 60% no-repeat, radial-gradient(circle 10px at right bottom, transparent 10px, #f3585c 100%) left bottom/100% 60% no-repeat;
@@ -32,24 +40,43 @@ body {
 }
 
 .coupon1-right {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   background: radial-gradient(circle 10px at left top, transparent 10px, #f3585c 0) left top/90% 60% no-repeat, radial-gradient(circle 10px at left bottom, transparent 10px, #f3585c 0) left bottom/90% 60% no-repeat, radial-gradient(circle 4px at right 6px, transparent 4px, #f3585c 0) right top/15% 12px repeat-y;
 }
 
 .coupon1-right--content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 20px;
 }
 
 .coupon1-right--op {
   width: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -62,6 +89,8 @@ body {
 .coupon2 {
   width: 350px;
   height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 20px auto;
   color: white;
@@ -72,8 +101,14 @@ body {
   height: 100%;
   width: 120px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   border-right: 1px solid transparent;
   background: radial-gradient(circle 10px at right top, transparent 10px, #f3585c 100%) left top/100% 60% no-repeat, radial-gradient(circle 10px at right bottom, transparent 10px, #f3585c 100%) left bottom/100% 60% no-repeat;
@@ -90,23 +125,40 @@ body {
 }
 
 .coupon2-right {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   background: radial-gradient(circle at left top, transparent 10px, #f3585c 0) left top/60% 60% no-repeat, radial-gradient(circle at left bottom, transparent 10px, #f3585c 0) left bottom/60% 60% no-repeat, radial-gradient(circle at right center, transparent 10px, #f3585c 0) right center/60% 100% no-repeat;
 }
 
 .coupon2-right--content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 20px;
 }
 
 .coupon2-right--op {
   width: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -120,6 +172,8 @@ body {
 .coupon3 {
   width: 350px;
   height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 20px auto;
   color: white;
@@ -129,30 +183,53 @@ body {
   height: 100%;
   width: 120px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background: radial-gradient(circle 10px at right top, transparent 10px, #f3585c 100%) right top/90% 60% no-repeat, radial-gradient(circle 10px at right bottom, transparent 10px, #f3585c 100%) right bottom/90% 60% no-repeat, radial-gradient(circle 4px at left 6px, transparent 4px, #f3585c 0) left top/15% 12px repeat-y;
 }
 
 .coupon3-right {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   background: radial-gradient(circle at left top, transparent 10px, #ccc 11px, transparent 0) left top/60% 60% no-repeat, radial-gradient(circle at left bottom, transparent 10px, #ccc 11px, transparent 0) left bottom/60% 60% no-repeat, linear-gradient(to right, transparent 11px, #ccc 0) left top/100% 1px no-repeat, linear-gradient(to right, transparent 11px, #ccc 0) left bottom/100% 1px no-repeat, linear-gradient(to bottom, #ccc 4px, transparent 0) right top/1px 12px repeat-y, radial-gradient(circle 3px at right 8px, transparent 3px, #ccc 4px, transparent 0) right top/6px 12px repeat-y;
 }
 
 .coupon3-right--content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 20px;
 }
 
 .coupon3-right--op {
   width: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -166,6 +243,8 @@ body {
 .coupon4 {
   width: 350px;
   height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 20px auto;
   color: white;
@@ -176,14 +255,24 @@ body {
   width: 120px;
   border-radius: 10px 0 0 10px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background: radial-gradient(circle 10px at left 70%, transparent 10px, #f3585c 100%) left top/100% 100% no-repeat;
 }
 
 .coupon4-right {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   border-radius: 0 10px 10px 0;
@@ -191,16 +280,29 @@ body {
 }
 
 .coupon4-right--content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 20px;
 }
 
 .coupon4-right--op {
   width: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
