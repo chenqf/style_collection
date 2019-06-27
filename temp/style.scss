@@ -1,0 +1,28 @@
+
+
+.container{
+    position:relative;
+    background:#ddd;
+    width: 500px;
+    height: 500px;
+    padding:10px;
+    z-index: -10;
+    div{
+        width:200px;
+        height:200px;
+    }
+    .one{
+        float:left;
+        background-color:deeppink;
+    }
+    .two{
+        display:inline-block;
+        background-color:yellowgreen;
+        margin-left:-100px;
+    }
+    .three{
+        position: relative;
+        z-index: -1;
+        background-color:yellow;
+    }
+}

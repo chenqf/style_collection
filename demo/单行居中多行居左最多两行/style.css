@@ -1,0 +1,25 @@
+.container {
+    width: 300px;
+    padding: 20px 0;
+    background-color: aquamarine
+}
+
+.outer-text {
+    display: block;
+    text-align: center
+}
+
+.center-text {
+    display: inline-block;
+    text-align: center
+}
+
+.inner-text {
+    position: relative;
+    font-style: normal;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden
+}

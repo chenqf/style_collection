@@ -1,0 +1,1 @@
+.container{position:relative;background:#ddd;width:500px;height:500px;padding:10px;z-index:-10}.container div{width:200px;height:200px}.container .one{float:left;background-color:deeppink}.container .two{display:inline-block;background-color:yellowgreen;margin-left:-100px}.container .three{position:relative;z-index:-1;background-color:yellow}
