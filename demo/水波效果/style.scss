@@ -43,6 +43,65 @@
 }
 
 
+
+
+.water-waves1{
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    background:rgb(118, 218, 255);
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+    color: #333;
+    &--item{
+        span{
+            position: relative;
+            z-index: 100;
+            line-height: 8;
+        }
+        &:before,&:after{
+            content:'';
+            width: 600px;
+            height: 600px;
+            position: absolute;
+            background: white;
+            left:50%;
+            transform: translate(-50%);
+            animation-name: rotate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: 10s;
+        }
+        &:before{
+            border-radius: 45%;
+            bottom:10px;
+        }
+        &:after{
+            border-radius: 47%;
+            bottom:5px;
+            opacity: .5;
+        }
+    }
+}
+
+
+@keyframes rotate{
+    0%{
+        transform: translate(-50%, 0) rotateZ(0deg);
+    }
+    50%{
+        transform: translate(-50%, -2%) rotateZ(180deg);
+    }
+    100%{
+        transform: translate(-50%, 0) rotateZ(360deg)
+    }
+}
+
+
+
 @-webkit-keyframes water-waves {
     0% {
         -webkit-transform: rotate(0deg);

@@ -1,1 +1,125 @@
-.water-waves{margin:0 auto;border-radius:50%;overflow:hidden;border:1px solid silver;position:relative;width:100px;height:100px}.water-waves__item{-webkit-animation:water-waves linear infinite;animation:water-waves linear infinite;position:absolute;width:200%;height:200%}.water-waves__item--1{top:50%;background:#33cfff;opacity:.7;border-radius:40%;left:-25%;-webkit-animation-duration:5s;animation-duration:5s}.water-waves__item--2{top:45%;background:#0eaffe;opacity:.5;border-radius:35%;left:-35%;-webkit-animation-duration:7s;animation-duration:7s}.water-waves__item--3{top:50%;border-radius:33%;opacity:.3;left:-35%;background:#0f7ae4;-webkit-animation-duration:11s;animation-duration:11s}@-webkit-keyframes water-waves{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes water-waves{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+.water-waves {
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid silver;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.water-waves__item {
+  -webkit-animation: water-waves linear infinite;
+  animation: water-waves linear infinite;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+}
+
+.water-waves__item--1 {
+  top: 50%;
+  background: #33cfff;
+  opacity: .7;
+  border-radius: 40%;
+  left: -25%;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+}
+
+.water-waves__item--2 {
+  top: 45%;
+  background: #0eaffe;
+  opacity: .5;
+  border-radius: 35%;
+  left: -35%;
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
+}
+
+.water-waves__item--3 {
+  top: 50%;
+  border-radius: 33%;
+  opacity: .3;
+  left: -35%;
+  background: #0f7ae4;
+  -webkit-animation-duration: 11s;
+  animation-duration: 11s;
+}
+
+.water-waves1 {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  background: #76daff;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  color: #333;
+}
+
+.water-waves1--item span {
+  position: relative;
+  z-index: 100;
+  line-height: 8;
+}
+
+.water-waves1--item:before, .water-waves1--item:after {
+  content: '';
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  background: white;
+  left: 50%;
+  transform: translate(-50%);
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 10s;
+}
+
+.water-waves1--item:before {
+  border-radius: 45%;
+  bottom: 10px;
+}
+
+.water-waves1--item:after {
+  border-radius: 47%;
+  bottom: 5px;
+  opacity: .5;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, 0) rotateZ(0deg);
+  }
+  50% {
+    transform: translate(-50%, -2%) rotateZ(180deg);
+  }
+  100% {
+    transform: translate(-50%, 0) rotateZ(360deg);
+  }
+}
+
+@-webkit-keyframes water-waves {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes water-waves {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
